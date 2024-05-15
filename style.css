@@ -7,9 +7,11 @@ body {
 }
 
 h1 {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   padding: 1%;
   color: #f5e8b1;
+  text-decoration: underline;
+  text-underline-offset: 7px;
 }
 
 .container {
@@ -77,4 +79,9 @@ article {
   z-index: -1;
   opacity: 70%;
   transform: scale(0.8);
+}
+
+.obsah_niki {
+  position: absolute;
+  
 }
