@@ -1,9 +1,10 @@
 body {
-  background-color: #d3bddb;
+  background-image: linear-gradient(to bottom right, #d3bddb, #f5e8b1);
   font-family: "Old Standard TT", serif;
   font-weight: 400;
   font-style: normal;
   box-sizing: border-box;
+  height: 150vh;
 }
 
 h1 {
@@ -25,8 +26,8 @@ h1 {
   flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 1rem;
-  padding-right: 10%;
-  padding-left: 10%;
+  padding-right: 18vw;
+  padding-left: 18vw;
 }
 
 button {
@@ -37,12 +38,12 @@ button {
   border-radius: 10px;
   cursor: pointer;
   transition-duration: 0.5s;
-  color: #34111b;
+  color: #430f1e;
 
 }
 
 button:hover {
-  background-color: #34111b;
+  background-color: #430f1e;
   color: #f5e8b1;
 
 }
@@ -52,8 +53,7 @@ button:hover {
   justify-content: center;
   margin-left: 25%;
   margin-right: 25%;
-  color: #498855;
-  font-size: larger;
+  color: #430f1e;
 }
 
 .nija {
@@ -65,11 +65,11 @@ button:hover {
 }
 
 article {
-  display: flex;
   justify-content: center;
-  color: #498855;
-  font-size: larger;
-  margin-top: 5%;
+  color: #430f1e;
+  margin-top: 6%;
+  max-width: 35vw;
+  padding-left: 55vw;
 }
 
 .cmaranice {
@@ -81,7 +81,11 @@ article {
   transform: scale(0.8);
 }
 
-.obsah_niki {
-  position: absolute;
-  
+.animace--hlava {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+  width: auto;
+  height: 80vh;
 }
